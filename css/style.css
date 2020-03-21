@@ -1,0 +1,171 @@
+/* Some notes about the content of the page "St Huxley's Community College" - I like the idea of schools teaches their students
+ to have emotional stability. Still, also it's essential do not naturalize the competitive society that we live in today. I mean, 
+ people are getting sick because of that(with or without emotional education). That's why I have hard moments at Georgian College.
+Most of the teacher is reproducing this neoliberal and technocratic culture that they were taught.
+That does not apply to you Jessica; you're doing a great job. But we need to have a critical-mind is this world that we live.
+The process of learning needs to be fun. I was a teacher before, and I saw that happening. Students learn faster in a 
+non-competitive environment.
+Right now, we are experiencing a singular moment in human history, and I believe this moment should show us that we need to change 
+lots of our old habits. Maybe we were all sick before from  our predatory behavior, and this virus just put that into the light.  */
+
+
+/* General setup */
+
+/*________________________ 01- General Styles ____________________________*/
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Bellota|Dosis|Spartan&display=swap'); /* Other way to do @font-face */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'abel', sans-serif;
+  font-size: 10px;
+}
+
+h1,
+h2 {
+  font-family: 'Bellota', cursive;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+p{
+  line-height: 1.7;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-indent: 2em;
+}
+
+ul li{
+  list-style: square;
+}
+
+ol li{
+  list-style-type: lower-alpha;
+}
+
+ul,
+ol{
+  line-height: 2;
+}
+
+p,
+ul,
+ol {
+  font-size: 1rem;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/*________________________ 02- Link Styles  ____________________________*/
+
+
+a[href*="http"] {
+  background: url('../img/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+a:link {
+  color: ##0000FF;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:active {
+  background-color: #C4FF41;
+  color: grey;
+}
+
+/*________________________ 03- Nav ____________________________*/
+
+nav li {
+  display: block;
+  border-bottom: 1px solid
+}
+
+nav a{
+  outline: none;
+  text-decoration: none;
+  width: 70%;
+  margin-right: 3%;
+  text-align: center;
+  color: #000;
+  line-height: 3;
+  font-size: 2em;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  color: #803E31;
+}
+
+nav a:hover {
+  background-color: #BADA55;
+  color: #fff;
+}
+
+nav a:active {
+  background: #909090;
+  color: #fff;
+}
+
+
+
+/* header and footer */
+header {
+  letter-spacing: 0.2em;
+}
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  text-align: center;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
